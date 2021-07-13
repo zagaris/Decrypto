@@ -1,6 +1,6 @@
 # Decrypto
 
-Descrypto is a symmetric key mechanism for a secure chat server/client scenario, using the openSSL toolkit.
+Decrypto is a symmetric key mechanism for a secure chat server/client scenario, using the openSSL toolkit.
 
 
 ## Communication and Key Exchange Protocol between client and server
