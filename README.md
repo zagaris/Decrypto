@@ -1,6 +1,6 @@
 # Decrypto
 
-Descrypto is a symmetric key mechanism for a secure chat server/client scenario, using the openSSL toolkit.
+Decrypto is a symmetric key mechanism for a secure chat server/client scenario, using the openSSL toolkit.
 
 
 ## Communication and Key Exchange Protocol between client and server
@@ -41,7 +41,3 @@ The default port for the server is 6000, but you can specify a different port vi
 ./client -i 127.0.0.1 -p 6000 -m "hello"
 ```
 Also, you can terminate the communication by sending the message `quit` to the server.
-
-## Hint
-
-For this implementation i don't use threads, so the server does not support multiple client connections. 
