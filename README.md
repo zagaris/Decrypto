@@ -41,3 +41,17 @@ The default port for the server is 6000, but you can specify a different port vi
 ./client -i 127.0.0.1 -p 6000 -m "hello"
 ```
 Also, you can terminate the communication by sending the message `quit` to the server.
+
+
+## Generate your keys
+
+You can generate your own RSA keys with openSSL commands.
+
+```bash
+openssl genrsa -out cli_priv.pem 2048
+openssl rsa -in cli_priv.pem -pubout > cli_pub.pem
+openssl genrsa -out srv_priv.pem 2048
+openssl rsa -in srv_priv.pem -pubout > srv_pub.pem
+```
+
+
